@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="webpage.css">
+  <title>Journal Referencing</title>
+</head>
+
+<body>
+  <h3>UCB Referencing (Webpage)</h3>
+  <p>Webpage Referencing format</p>
+  <p>AuthorFirstName, AuthorInitial (publish year) <em>webpage title</em> Avaliable at:url (Date off Access) </p>
+
+  <!-- input area -->
+  <label>Author or organization</label><br>
+
+  <div class="wrapper">
+    <input type="text" id="author" class="author">
+    <button id="add_button">+</button><br>
+  </div>
+
+  <label>Publish Year or last update</label><br>
+  <input type="text" id="publishYear"><br>
+
+  <label>Title of Webpage</label><br>
+  <input type="text" id="title"><br>
+
+  <label>Avaliable at URL</label><br>
+  <input type="text" id="url"><br>
+
+  <label>Access date</label><br>
+  <input type="date" id="accessDate"><br>
+
+  <button id="sub">submit</button><br><br>
+
+  <!-- output area -->
+  <div id="reference"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="webpage.js"></script>
+</body>
+
+</html>

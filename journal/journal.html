@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Journal Referencing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h3>UCB Journal Referencing</h3>
+  <div style="font-size: large; font-family: Arial, Helvetica, sans-serif;">
+    Journal and Articles <br>
+    sample referencing: <br>
+    <div style="font-size: 16pt; font-family: 'Times New Roman', Times, serif;">
+      Davies, K. and Honeyman, G. (2013) 'Living with a child whose behaviour is described as challenging', <i>Advances
+        in
+        Mental Health and Intellectual Disabilities</i>, 7(2), pp. 117-123.
+    </div>
+  </div>
+
+  <!-- user input area -->
+  <label>Author</label>
+  <div class="wrapper">
+    <input type="text" id="author" class="author">
+    <button id="add_button">+</button><br>
+  </div>
+
+  <label>Journal Heading</label><br>
+  <input type="text" id="journalHeading"><br>
+
+  <label>title</label><br>
+  <input type="text" id="title"><br>
+
+  <label>publish year</label><br>
+  <input type="text" id="publishYear"><br>
+
+  <label>edition</label><br>
+  <input type="text" id="edition"><br>
+
+  <label>Page Used</label><br>
+  <input type="text" id="pageNumber">
+
+  <button id="sub">submit</button>
+  <br>
+  <br>
+
+  <!-- reference output -->
+  <div id="reference"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="journal.js"></script>
+
+</body>
+
+</html>
